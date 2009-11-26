@@ -3,3 +3,5 @@
 ## How to use it
 
 Run 'ruby teste.rb'
+
+Take a look at 'teste.rb', there are some other examples there.
