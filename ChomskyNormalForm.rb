@@ -1,3 +1,4 @@
+#testando
 require File.expand_path(File.dirname(__FILE__) + '/FreeContextGrammar.rb')
 
 class ChomskyNormalForm < FreeContextGrammar
