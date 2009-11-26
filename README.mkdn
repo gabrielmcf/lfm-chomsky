@@ -1,0 +1,5 @@
+# Chomsky Normal Forms
+
+## How to use it
+
+Run 'ruby teste.rb'
