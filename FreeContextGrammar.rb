@@ -187,7 +187,24 @@ end
   end
 
   def to_cnf
-    ChomskyNormalForm.from_fcg(self)
+    ChomskyNormalForm.from_fcgc(self)
+  end
+ 
+  def to_gnf
+    GreibachNormalForm.from_fcgg(self)
+  end
+
+  def gera_gnf
+    vars.each do |var|
+      aux = productions[var].size
+      aux2 = 0
+      0.upto(aux) do
+#        if productions[var][aux2].size == 2
+#          puts productions[var][aux2][0..0]
+#        end
+        aux2++
+      end
+    end
   end
   
   def is_a_var?(q)

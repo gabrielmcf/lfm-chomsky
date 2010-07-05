@@ -1,5 +1,7 @@
+require File.expand_path(File.dirname(__FILE__) + '/GreibachNormalForm.rb')
 require File.expand_path(File.dirname(__FILE__) + '/ChomskyNormalForm.rb')
 require File.expand_path(File.dirname(__FILE__) + '/FreeContextGrammar.rb')
+
 
 class ChomskyNormalFormTest
 
@@ -29,5 +31,5 @@ class ChomskyNormalFormTest
 
       )
 
-      cnf = fcg.to_cnf
+      cnf = fcg.to_gnf
 end

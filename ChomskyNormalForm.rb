@@ -7,7 +7,7 @@ class ChomskyNormalForm < FreeContextGrammar
   end
   
   class << self
-    def from_fcg(fcg)
+    def from_fcgc(fcg)
       chomsky = ChomskyNormalForm.new(fcg.vars, fcg.terms, fcg.productions, fcg.start)
 
 	#Imprime regras iniciais
